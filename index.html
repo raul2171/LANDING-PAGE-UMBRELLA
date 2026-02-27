@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>UmbrellaPro - Paraguas Premium</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(135deg, #0077ff, #00c6ff);
+            color: white;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: #ff9800;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #e68900;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .feature-box {
+            background: white;
+            padding: 30px;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .feature-box h3 {
+            margin-bottom: 15px;
+            color: #0077ff;
+        }
+
+        .price-section {
+            background: #0077ff;
+            color: white;
+        }
+
+        .price {
+            font-size: 2.5rem;
+            margin: 20px 0;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        @media(max-width:768px){
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>UmbrellaPro ☔</h1>
+    <p>El paraguas resistente al viento y la lluvia más confiable del mercado.</p>
+    <a href="#comprar" class="btn">Comprar Ahora</a>
+</header>
+
+<section>
+    <h2>¿Por qué elegir UmbrellaPro?</h2>
+    <div class="features">
+        <div class="feature-box">
+            <h3>🌬 Resistente al viento</h3>
+            <p>Estructura reforzada que soporta fuertes ráfagas sin romperse.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>💧 Impermeable total</h3>
+            <p>Tela premium que repele el agua y seca rápidamente.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>🎒 Diseño compacto</h3>
+            <p>Ligero y fácil de transportar en mochila o bolso.</p>
+        </div>
+    </div>
+</section>
+
+<section class="price-section" id="comprar">
+    <h2>Oferta Especial</h2>
+    <p class="price">$24.99</p>
+    <p>Envío gratis por tiempo limitado.</p>
+    <br>
+    <a href="#" class="btn">Comprar Ahora</a>
+</section>
+
+<section>
+    <h2>Garantía 100% Satisfacción</h2>
+    <p>Si no estás satisfecho con tu compra, te devolvemos tu dinero sin preguntas.</p>
+</section>
+
+<footer>
+    © 2026 UmbrellaPro - Todos los derechos reservados.
+</footer>
+
+</body>
+</html>
